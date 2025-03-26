@@ -1,0 +1,193 @@
+:root {
+    --font-family: "Roboto";
+    --normal-font: 400;
+    --bold-font: 700;
+    --bolder-font: 900;
+    --bg-color: #f0ebeb;
+    --primary-color: #4756df;
+    --secundary-color: #ff7235;
+
+}
+
+html{
+    scroll-behavior:smooth;
+}
+.a_sin_decoracion{
+    text-decoration: none;
+    color: black;
+}
+body{
+    font-family: var(--font-family);
+}
+
+nav{
+    position: sticky;
+    top: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: var(--bg-color);
+    box-shadow: 10px 10px 20px black;
+    z-index: 10;
+}
+
+nav h1{
+    color: var(--primary-color);
+}
+
+nav ul{
+    display: flex;
+    gap: 20px;
+}
+
+.biografia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    max-width: 60%;
+    margin: auto;
+    padding: 30px;
+    text-align: justify;
+}
+
+.div_perfil{
+
+}
+
+.foto_perfil{
+    
+}
+.bio_info{
+    max-width: 60%;
+    box-shadow: 0px 0px 20px black;
+    border: 2px dotted black;
+}
+
+.habilidades{
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+}
+
+.icono-habilidad{
+    width: 100px;
+    height: 100px;
+}
+.encabezado-habilidad{
+    margin-bottom: 1rem;
+}
+
+.contenedor-habilidades{
+    padding: 1rem;
+}
+.icono-habilidad:hover{
+    background-color: #ff7235;
+}
+.tarjeta{
+    background-color: var(--bg-color);
+    box-shadow: 0px 0px 10px black;
+    padding: 5px;
+    margin: 5px;
+}
+
+.proyectos{
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+    background-color: aliceblue;
+}
+
+.tarjeta_proyectos{
+    margin: 100px;
+    width: 33%;
+    box-shadow: 0px 0px 10px black;
+    align-items: center;
+}
+.tarjeta_proyectos:hover{
+    background-color: #ff7235;
+}
+.tarjeta_proyectos p{
+    padding: 10px;
+}
+.tarjeta_proyectos img{
+    margin: 20px;
+}
+.contenedor_proyectos{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.redes_sociales{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 0%;
+    bottom: 50%;
+}
+
+.footer{
+    position: static;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.registro {
+    text-align: center;
+    padding: 2rem;
+    background-color: var(--bg-color);
+}
+
+.registro h2 {
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+}
+
+.registro form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    max-width: 400px;
+    margin: auto;
+}
+
+.registro label {
+    font-weight: var(--bold-font);
+}
+
+.registro input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.registro button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.registro button:hover {
+    background-color: var(--secundary-color);
+}
+
+.Mensaje_registro{
+    min-height:100px ;
+}
+
+.contenedor_contacto{
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+    background-color: aliceblue;  
+    max-width: 30%;  
+    box-shadow: 0px 0px 10px black;
+}
