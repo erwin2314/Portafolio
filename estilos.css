@@ -30,6 +30,7 @@ nav{
     background-color: var(--bg-color);
     box-shadow: 10px 10px 20px black;
     z-index: 10;
+    width: 100%;
 }
 
 nav h1{
@@ -94,13 +95,20 @@ nav ul{
     margin: auto;
     padding: 1rem;
     background-color: aliceblue;
+    width: 100%s;
 }
 
 .tarjeta_proyectos{
-    margin: 100px;
+    margin: 2%;
+    max-height: 50%;
+    min-height: 500px;
     width: 33%;
     box-shadow: 0px 0px 10px black;
     align-items: center;
+}
+.imagenes_proyecto{
+    max-width: 80%;
+    height: 300px;
 }
 .tarjeta_proyectos:hover{
     background-color: #ff7235;
@@ -113,8 +121,10 @@ nav ul{
 }
 .contenedor_proyectos{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     width: 100%;
+    
 }
 
 .redes_sociales{
